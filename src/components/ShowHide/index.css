@@ -1,0 +1,143 @@
+.bg-Container {
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+  height: 100vh;
+  max-height: 1500px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heading {
+  font-family: 'Robot';
+  color: #ffffff;
+  font-weight: bold;
+  text-align: center;
+  width: 80%;
+}
+.card {
+  height: 60%;
+  width: 50%;
+}
+
+.firsNameCard {
+  width: 95%;
+  height: 60%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.lastNameCard {
+  height: 60%;
+  width: 95%;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.button {
+  min-height: 30px;
+  min-width: 100px;
+  font-family: 'Roboto';
+  color: #dd1264;
+  font-weight: 500;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.fistNameStyle {
+  min-height: 30px;
+  min-width: 100px;
+  font-family: 'Roboto';
+  color: black;
+  font-weight: 500;
+  background-color: #fddddb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.lastNameStyle {
+  min-height: 30px;
+  min-width: 100px;
+  font-family: 'Roboto';
+  color: black;
+  font-weight: 500;
+  background-color: #fddddb;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin: auto;
+}
+
+@media (max-width: 767px) {
+  .heading {
+    font-size: 25px;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .button {
+    max-height: 30px;
+    max-width: 180px;
+    font-size: 12px;
+  }
+
+  .fistNameStyle {
+    height: 50%;
+    width: 60%;
+  }
+
+  .lastNameStyle {
+    height: 50%;
+    width: 60%;
+  }
+}
+
+@media (min-width: 768px) {
+  .heading {
+    font-size: 55px;
+  }
+  .card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 50%;
+  }
+
+  .button {
+    max-height: 40px;
+    max-width: 200px;
+    font-size: 18px;
+  }
+  .firsNameCard {
+    height: 80%;
+  }
+
+  .lastNameCard {
+    height: 80%;
+  }
+
+  .fistNameStyle {
+    height: 85%;
+    width: 85%;
+    font-size: 30px;
+  }
+
+  .lastNameStyle {
+    height: 85%;
+    width: 85%;
+    font-size: 30px;
+  }
+}
